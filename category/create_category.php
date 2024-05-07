@@ -24,7 +24,7 @@ if (isset($_POST['submit'])) {
 
 
 
-<h1 style="text-align: center;">Create Category Page</h1>
+<h1 style="text-align: center;"></h1>
 <form action="create_category.php" method="post" class="w-50 m-auto my-5 p-5 shadow">
     <?php
     foreach ($errors as $key => $err) {

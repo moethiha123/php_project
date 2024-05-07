@@ -13,10 +13,10 @@ $id = $_GET['id'];
 echo "id is", $id;
 ?>
 <div class="main p-5">
-    <form action="update-user.php" class="w-50 m-auto p-5 m-5 shadow" method="post" enctype="multipart/form-data">
+    <form action="update_product.php" class="w-50 m-auto p-5 m-5 shadow" method="post" enctype="multipart/form-data">
         <?php ?>
         <h1 class="text-center mb-5">Edit User</h1>
-        <input type="hidden" name="userid" value="<?= $user['user_id'] ?>">
+
         <div class="mb-3">
             <input type="text" placeholder="Name...." name="name" value="<?= $user['name'] ?>">
         </div>

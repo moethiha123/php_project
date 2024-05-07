@@ -14,4 +14,4 @@ function delete($tbname, $tbid, $id)
         header('location:http://localhost/php_exercise/blog/admin-dashboard.php');
     }
 }
-delete($tbname, $tbid, $id);
+delete($tbname, $tbid, $id);    //function call
